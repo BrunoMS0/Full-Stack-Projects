@@ -1,0 +1,56 @@
+body{
+    background: url('/imagenes/background-hexa.jpg');
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container-login{
+    padding: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    background-color: rgb(0, 136, 109);
+    color: white;
+    border: 2px solid rgb(0, 111, 85);
+    border-radius: 50px;
+}
+.main-title-login{
+    text-align: center;
+    padding: 0 20px 35px 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+input{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem; 
+    outline: none;
+    border-color: #4a5568;
+    color: #000;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.buttom-login{
+    padding: 10px 30px;
+    border: 1px solid #e5e5e5;
+    margin: 0.9rem; 
+    outline: none;
+    border-radius: 50px;
+}
+.buttom-login:hover{
+    background-color: rgb(0, 152, 122);
+}
+.extra-buttom-login{
+    margin: 5px;
+    font-size: 0.93rem;
+}
+.extra-buttom-login:hover{
+    color: rgb(0, 57, 45);
+}
